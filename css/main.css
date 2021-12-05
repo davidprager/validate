@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 120px;
+
+}
+
+#centerHeader {
+    margin-left: 150px;
+}
+
+main {
+    text-align: center;
+}
+
+#infoForm{
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    background-color: lightyellow;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Rules to initialize text displays */
+
+.errorMessage {
+    display: none;
+    color: red;
+}
+#responseDisplay {
+    display: none;
+}
+
+.checkboxLabel {
+    text-align: right;
+}
+
+#eventsError {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
